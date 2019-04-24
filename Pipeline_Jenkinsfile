@@ -32,7 +32,7 @@ pipeline {
                 }
                 build job : 'Deploy_To_Prod_Pipeline'
 
-               
+            }   
                 post{
                     success{
                         echo 'Deploment on Production Successful'
@@ -43,7 +43,7 @@ pipeline {
 
                     }
                 }
-            }
+            
         }
 
     }
